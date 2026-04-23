@@ -131,5 +131,12 @@ int main()
 
         cout << "\nMasukkan pilihan (1-5) : ";
         cin >> ch;
-    }
+
+        switch (ch)
+        {
+        
+        }
+    } while (ch != '5');
+
+    return 0;
 }
